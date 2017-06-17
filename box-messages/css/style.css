@@ -8,11 +8,40 @@
 
 /* Box Message */
 .box-message {
-    border: 1px solid blueviolet;
+    border: 1px solid;
     font: 1.1em;
     width: 450px;
     height: 75px;
     margin: 10px;
     padding-left: 75px;
     line-height: 75px;
+    background: no-repeat 20px center;
+}
+
+.info {
+    background-color: #d7eef6;
+    background-image: url(images/icon-info.png);
+    border-color: #cee0e4;
+    color: #3e5d6f;
+}
+
+.success {
+    background-color: #def0d8;
+    background-image: url(images/icon-success.png);
+    border-color: #d9e5cf;
+    color: #4e6841;
+}
+
+.warning {
+    background-color: #fbf8e5;
+    background-image: url(images/icon-warning.png);
+    border-color: #f4eddb;
+    color: #7f743c;
+}
+
+.error {
+    background-color: #f2dedf;
+    background-image: url(images/icon-error.png);
+    border-color: #e2d4d3;
+    color: #8c433a;
 }
